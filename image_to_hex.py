@@ -36,5 +36,5 @@ def image_to_rgb_hex(image_path, output_path):
                 
 
 # Example usage
-image_to_rgb_hex(r'C:\Users\eemrk\OneDrive\Masaüstü\image_to_hex',
-                 r'C:\Users\eemrk\OneDrive\Masaüstü\image_to_hex\converteds')
+image_to_rgb_hex('images_to_be_converted',
+                 'converteds')
