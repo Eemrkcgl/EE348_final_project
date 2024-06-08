@@ -1,0 +1,12 @@
+module image(
+	input [9:0] image_width,
+	input [9:0] image_height,
+	input [9:0] start_x,
+	input [9:0] start_y
+		input 
+	
+	output [7:0] o_red,
+	output [7:0] o_green,
+	output [7:0] o_blue
+	
+);

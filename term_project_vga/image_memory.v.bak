@@ -1,0 +1,17 @@
+module image_memory (
+    input [18:0] address,
+    input clock,
+    output reg [23:0] q
+);
+
+    reg [23:0] mem [0:13599];
+
+    initial begin
+        $readmemh("output_rgb_hex.txt", mem);
+    end
+
+    always @(posedge clock) begin
+        q <= mem[address];
+    end
+
+endmodule
